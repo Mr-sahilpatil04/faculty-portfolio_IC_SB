@@ -13,6 +13,7 @@ class Navbar {
   }
 
   init() {
+    this.navbar.classList.add('scrolled');
     // Scroll behavior
     window.addEventListener('scroll', () => this.handleScroll(), { passive: true });
 
